@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Lourdes Carranza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecera">
+
+        <!-- FOTO -->
+        <div class="contenedor_foto_perfil">
+          <img class="fotocv" src="fotocvjemer.png" alt="Foto de perfil de Lourdes Carranza" />
+        </div>
+
+        <!-- NOMBRE -->
+        <div class="nombre_puesto">
+          <h1>Lourdes Carranza</h1>
+          <button id="downloadPDF" class="open-modal-btn"> Descargar CV en PDF</button>
+        
+        </div>
+        
+
+        <!-- SOBRE MÍ -->
+        <section class="datos">
+          <h3>Sobre mí</h3>
+          <hr />
+          <p class="carta_presentacion">
+            Soy estudiante de Ciencias Sociales, tengo 17 años y actualmente estoy cursando mi último año de secundaria en el colegio 25 de Mayo. Tengo un alto promedio académico (9.14) y experiencia en proyectos de impacto social, marketing y liderazgo. En el futuro planeo estudiar Ingeniería en Software en la Universidad Siglo 21. Me considero proactiva, organizada y con habilidades en comunicación.
+          </p>
+          <button id="openModalSobremi" class="open-modal-btn">Otros Datos </button>
+        </section>
+
+        <!-- EXPERIENCIA -->
+        <section class="experiencia">
+          <h3>Experiencia</h3>
+          <hr />
+          <ul>
+            <li>Proyecto escolar Sustentics por Junior Achievement</li>
+            <li>Participación en proyecto OAJNU</li>
+            <li>Puesto de Marketing en Raíces en Casa</li>
+            <li>Pasantías en Jemer</li>
+          </ul>
+          <button id="openModalexperiencia" class="open-modal-btn">Año de cada proyecto</button>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="habilidades">
+          <h3>Habilidades</h3>
+          <hr />
+          <ul>
+            <li>Organización</li>
+            <li>Seguridad en mí misma</li>
+            <li>Capacidad de Manejo Grupal</li>
+            <li>Aceptación de críticas constructivas</li>
+            <li>Pensamiento estratégico, crítico y analítico</li>
+          </ul>
+          <button id="openModalhabilidades" class="open-modal-btn">Capacidades y Aptitudes</button>
+        </section>
+
+        <!-- EDUCACIÓN -->
+        <section class="educacion">
+          <h3>Educación</h3>
+          <hr />
+          <ul>
+            <li>Egresada de British School en 2024</li>
+            <li>Cursando último año de secundaria en el Colegio 25 de Mayo</li>
+          </ul>
+          <button id="openModaleducacion" class="open-modal-btn">Mas detalles de mi Educación</button>
+        </section>
+
+        <!-- IDIOMAS -->
+        <section class="idiomas">
+          <h3>Idiomas</h3>
+          <hr />
+          <ul>
+            <li>Español</li>
+            <li>Inglés Nivel B1</li>
+          </ul>
+          <button id="openModalidiomas" class="open-modal-btn">Aclaraciones</button>
+        </section>
+
+        <!-- PASATIEMPOS -->
+        <section class="pasatiempos">
+          <h3>Pasatiempos</h3>
+          <hr />
+          <ul>
+            <li>Aprender nuevas habilidades</li>
+            <li>Deportes (Voley principalmente)</li>
+            <li>Actividades creativas: dibujo, diseño gráfico y manualidades</li>
+          </ul>
+          <button id="openModalpasatiempos" class="open-modal-btn">Más sobre mis pasatiempos</button>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contacto">
+          <h3>Contacto</h3>
+          <hr />
+          <ul>
+            <li class="iconphone"><i class="fas fa-phone"></i> Teléfono <a href="tel:+543513109125">3513109125</a></li>
+            <li class="iconenvelope"><i class="fas fa-envelope"></i> Email <a href="mailto:lourdescarranza154@gmail.com">lourdescarranza154@gmail.com</a></li>
+            <li class="iconig"><i class="fab fa-instagram"></i> Instagram <a href="https://instagram.com/luli__carranza" target="_blank" rel="noopener">luli__carranza</a></li>
+            <li class="iconln"><i class="fab fa-linkedin"></i> LinkedIn <a href="https://linkedin.com/in/luli-carranza-15b4a7376" target="_blank" rel="noopener">linkedin.com/in/luli-carranza-15b4a7376</a></li>
+            <li class="iconhome"><i class="fas fa-home"></i> Dirección <a href="https://maps.app.goo.gl/Ct5tLrW3QRrnotPcA" target="_blank" rel="noopener">Av. Amadeo Sabattinni 1383</a></li>
+          </ul>
+        </section>
+      </header>
+    </div>
+
+    <!-- Modal Sobre Mí -->
+    <div id="modalSobremi" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalSobremi">&times;</span>
+        <h2>Otros datos personales</h2>
+        <ul>
+          <li>Nací el 15 de abril de 2008</li>
+          <li>Mi DNI es 47982830</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Modal Experiencia -->
+    <div id="modalexperiencia" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalexperiencia">&times;</span>
+        <h2>Año de cada proyecto</h2>
+        <ul>
+          <li>Sustentics: En 3er año de secundaria, primera mitad del año de 2022</li>
+          <li>OAJNU: En 3er y 4to año de secundaria, en Septiembre y Octubre de 2022 y 2023</li>
+          <li>Raíces en Casa: En 5to año de secundaria, 2024</li>
+          <li>Pasantías en Jemer: En 6to año de secundaria, durante 2 semanas en Agosto 2025</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Modal Habilidades -->
+    <div id="modalhabilidades" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalhabilidades">&times;</span>
+        <h2>Capacidades y aptitudes</h2>
+        <p>Organización: Me gusta planificar mis tareas con anticipación para evitar olvidos y cumplir con mis responsabilidades a tiempo. Uso agendas y apps para mantener todo ordenado.</p>
+        <p>Seguridad en mí misma: Confío en mis capacidades y no temo afrontar desafíos nuevos. Mantengo una actitud positiva y resiliente ante las dificultades.</p>
+        <p>Capacidad de manejo grupal: He liderado grupos escolares y proyectos en equipo, fomentando la colaboración y comunicación clara para alcanzar objetivos comunes.</p>
+        <p>Aceptación de críticas constructivas: Valoro el feedback porque me ayuda a crecer, corrijo errores y aplico mejoras continuamente.</p>
+        <p>Pensamiento estratégico: Analizo las situaciones con lógica para tomar decisiones informadas y planificar acciones efectivas.</p>
+      </div>
+    </div>
+
+    <!-- Modal Educación -->
+    <div id="modaleducacion" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModaleducacion">&times;</span>
+        <h2>Más detalles de mi Educación</h2>
+        <ul>
+          <li>Estoy en la división de Ciencias Sociales</li>
+          <li>Mi promedio académico de sexto año es de 9.14 (hasta julio, antes de las vacaciones de invierno)</li>
+          <li>Tengo un nivel de Inglés B1 (Intermedio)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Modal Idiomas -->
+    <div id="modalidiomas" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalidiomas">&times;</span>
+        <h2>Aclaraciones</h2>
+        <p>El español es mi idioma nativo al nacer en Córdoba Capital, Argentina.</p>
+        <p>Rendí dos exámenes de Cambridge:</p>
+        <ul>
+          <li>El PET en 2022</li>
+          <li>El FIRST en 2024</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Modal Pasatiempos -->
+    <div id="modalpasatiempos" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalpasatiempos">&times;</span>
+        <h2>Más sobre mis pasatiempos</h2>
+        <p>Me encanta dedicar tiempo a mis hobbies porque me ayudan a relajarme y a ser más creativa. Considero que es importante equilibrar el profesionalismo con los pasatiempos para manejar el estrés y la frustración</p>
+        <ul>
+          <li>Practicar deportes, especialmente voley.</li>
+          <li>Realizar actividades creativas como dibujo y manualidades para regalar a mis seres queridos.</li>
+          <li>Aprender nuevas habilidades, sobre todo si están relacionadas con conceptos de programacion y software</li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
